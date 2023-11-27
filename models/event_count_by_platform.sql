@@ -3,8 +3,8 @@
 }}
 
 select 
-  platform,
-  count(event_id) as cnt
-from dbdemos.dbt_c360_bronze_orders
+  `platform`,
+  count(`event_id`) as cnt
+from dbdemos.dbt_c360_bronze_events
 group by 
-  platform
+  `platform`
