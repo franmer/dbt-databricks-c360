@@ -1,6 +1,10 @@
 version: 2
 
 models:
+  - name: dbt_c360_bronze_orders
+    columns: 
+      - name: user_id
+
   - name: dbt_c360_silver_users
     columns:
       - name: user_id
