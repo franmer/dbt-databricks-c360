@@ -3,7 +3,7 @@
 }}
 
 select 
-  user_id,
+  user_id, --
   session_id,
   event_id,
   `date`,
