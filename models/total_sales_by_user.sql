@@ -5,6 +5,6 @@
 select 
   user_id,
   sum(`amount`)
-from {{ref('dbt_c360_bronze_orders')}}
+from dbdemos.dbt_c360_bronze_orders
 group by 
   user_id
